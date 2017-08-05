@@ -1,0 +1,158 @@
+#sideLeft{
+  background-color: aqua;
+  height: 100vh !important;
+}
+
+#sideLeft h4{
+  margin-left: 3vw;
+  margin-top: 5vh;
+  font-size: 1.5em;
+  color:#b042f4;
+}
+.table-title{
+  margin-top: 5vh;
+  margin-left: 30vw;
+  margin-bottom: 5vh;
+  text-decoration: underline;
+  color:#283322;
+}
+
+#data{
+  margin-top: 5vh;
+  margin-left: 1vw;
+  margin-right: 3vw;
+}
+
+.id-user{
+  width:5vw !important; 
+  /*background-color: green;*/
+}
+.id-barang{
+  width:5vw !important; 
+  /*background-color: green;*/
+}
+
+.nama-user, .nama-barang{
+  width:10vw !important;
+  /*background-color: blue; */
+}
+
+.telp-user, .harga-barang{
+  width:5vw !important;
+  /*background-color: red; */
+}
+
+.email-user{
+  width:15vw !important;
+  /*background-color: yellow; */
+}
+
+.ukuran-barang{
+  width: 5vw !important;
+}
+.alamat-user{
+  width:20vw !important;
+  /*background-color: aqua; */
+}
+.keterangan-barang{
+  width:18vw !important;
+}
+
+.gambar{
+  width: 15vw !important;
+}
+/*.gambar img{
+  width : 15vw !important;
+  height: 25vh !important;
+}*/
+
+.hapus, .stock-barang{
+  width: 3vw !important;
+}
+
+.id-transaksi{
+  width: 8vw !important;
+}
+
+.tabel-barang{
+  width: 80vw !important;
+}
+
+#tabel-admin{
+  margin-left: 15vw !important;
+  width: 45vw;
+}
+
+#tambah-data{
+  margin-bottom: 5vh;
+  position: absolute;
+  top: 5vh;
+}
+#tambah-data-barang{
+  margin-bottom: 5vh;
+  position: absolute;
+  top: 5vh;
+}
+
+table.table-hover, table.table-condensed{
+  border-left: 1px solid grey !important;
+  border-right: 1px solid grey !important;
+  border-bottom: 1px solid grey !important;
+}
+
+table.table-hover thead, table.table-condensed thead{
+  background-color: #567cdd;
+  color: white;
+  border: 1px solid #ae79ea;
+}
+
+table.table-condensed{
+  margin-top: 5vh;
+}
+
+.draf-kategori{
+  float: left;
+  margin-top: 1.5vh;
+  margin-left: 5vw;
+}
+
+.item-kategori{
+  /*background-color: #7d3dc6 !important;*/
+  /*border-radius: 5px;*/
+  margin-right: 2vw;
+  /*color:white !important;*/
+}
+
+/*modal*/
+.modal-content{
+  width: 40vw !important;
+}
+
+textarea{
+  resize: vertical !important;
+}
+
+.box-up{
+  position: fixed;
+  width: 5vw;
+  height:8vh;
+  background-color: #a187c1;
+  bottom: 3vh;
+  right: 1vw;
+  border-radius: 10px;
+}
+.box-up:hover .btn span{
+  color:#7940bc;
+  /*cursor: pointer;*/
+}
+
+.box-up:hover{
+  opacity: 0.6;
+  background-color: 
+}
+
+.box-up .btn span{
+  margin-left: 1vw;
+  line-height: 6vh;
+  font-size: 1.5em;
+}

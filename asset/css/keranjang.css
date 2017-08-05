@@ -1,0 +1,108 @@
+/*b.kategori{
+  width:100vw !important;
+}*/
+/*keranjang.php*/
+#total-keranjang{
+  min-height: 50vh !important;
+  /*background-color: #eee;*/
+  margin-bottom: 5vh;
+}
+#total-keranjang .table-responsive{
+  margin-bottom: 0 !important;
+}
+
+#total-keranjang h3{
+  background-color: aqua;
+  border-radius: 20px 20px 0px 0px;
+  text-align: center;
+  color:#1e75e8;
+  height: 10vh;
+  line-height: 10vh;
+}
+/*#total-keranjang  tbody{
+  border-bottom: 1px solid #6b737c !important;
+}*/
+
+#total-keranjang td{
+  width: 20vw !important;
+  border-top: none;
+}
+  
+
+#total-keranjang tr{
+  margin-top: 5vh !important;
+  border-top: 1px solid #6b737c;
+}
+#total-keranjang tr#total-bayar{
+  border-bottom: 1px solid #6b737c;
+  height: 5vh !important;
+}
+
+
+#total-keranjang h4{
+  color:#33568e;
+  font-size: 1.5em;
+}
+#total-keranjang h5{
+  margin-top: 3vh;
+  font-size: 1.1em;
+}
+
+#total-keranjang button.btn-warning{
+  position: relative;
+  margin-top: 35vh;
+  margin-left: 5vw;
+  background-color: #dd2367;
+}
+
+#total-keranjang span.titik-harga{
+  margin-left: 3vw;
+}
+#total-keranjang span.titik-jumlah{
+  margin-left: 2.2vw;
+}
+
+#total-keranjang span.titik-total{
+  margin-left: 3.6vw;
+}
+
+#total-keranjang span.minus{
+  margin-left: 1vw;
+  background-color: #efc015;
+  padding: 3px 11px;
+  margin-right: 1vw;
+}
+
+#total-keranjang span.jumlah-barang{
+  border: 1px solid #232c56;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+#total-keranjang span.plus{
+  background-color: #14ccad;
+  padding: 3px 10px;
+  margin-left: 1vw;
+}
+
+#total-keranjang span.plus, span.minus{
+  cursor: pointer;
+}
+
+
+#total-keranjang img{
+  height: 40vh;
+  width: 15vw;
+  border: 1px solid #eee;
+}
+
+
+#beli button{
+  margin-bottom: 10vh;
+  margin-top: -5vh;
+  margin-left: 10vw;
+  z-index: 1;
+}
+
+
+/*end of keranjang*/

@@ -1,0 +1,584 @@
+body,html{
+  margin:0;
+  padding: 0;
+}
+
+
+.text-white{
+  color: white !important;
+}
+
+/*Navbar*/
+/*color of placeholder*/
+input[type="text"],textarea[type="text"]::-webkit-input-placeholder {
+    color:black;
+    opacity: 1 !important;
+}
+input[type="text"],textarea[type="text"]:-moz-placeholder {
+    opacity: 1 !important;
+    color:black;
+}
+input[type="text"],textarea[type="text"]::-moz-placeholder {
+    color:black;
+    opacity: 1 !important;
+}
+input[type="text"],textarea[type="text"]:-ms-input-placeholder {
+    color:black;
+    opacity: 1 !important;
+}
+
+.nav > li > a.not-active:focus, .nav > li > a.not-active:hover{
+  background: none !important;
+}
+
+nav{
+  height: 15vh !important;
+  background-color: #7986cb!important;
+  /*opacity:0.5;*/
+  border-radius: 0 !important;
+  position: relative; !important;
+  width: 100% !important;
+  z-index: 2; 
+}
+
+.navbar-fixed > .container-fluid {
+  padding: 0px !important;
+}
+
+.navbar-brand{
+  padding:0px !important;
+  margin-left: 5vw !important;
+  margin-top: 4vh !important;
+}
+.navbar-fixed .navbar-nav{
+  margin-right: 5vw !important;
+  margin-top: 3vh !important;
+}
+.navbar-fixed .navbar-nav > li > button{
+  color:#7986cb !important; 
+  background-color: white !important; 
+  margin-right: 1vw !important;
+}
+
+.navbar-fixed .navbar-nav > li > button:hover{
+  color:#d32f2f !important; 
+  background-color: #42a5f5 !important ; 
+  margin-right: 1vw !important;
+}
+
+.navabar-fixed > .navbar-nav > li #btn-logout{
+  color:#7986cb !important; 
+  background-color: white !important; 
+  margin-right: 1vw !important;
+}
+
+.navabar-fixed > .navbar-nav > li #btn-logout:hover{
+  color:#d32f2f !important; 
+  background-color: #42a5f5 !important ; 
+  margin-right: 1vw !important;
+}
+
+.navbar-fixed .navbar-nav > li > a{
+  color: white !important;
+  font-size: 1.1em !important;
+}
+
+.navbar-fixed .navbar-nav > li > a .glyphicon{
+  color: white !important !important;
+  font-size: 1.1em !important;
+}
+
+.navbar-fixed .navbar-nav > li > a:hover{
+  opacity:0.6 !important;
+  background-color:transparent !important ;
+}
+
+.navbar-fixed .navbar-nav > li > a .glyphicon-bell:hover{
+  opacity: 1 !important;
+  /*cursor: pointer;*/
+  color: red !important;
+}
+
+/*end of navbar*/
+
+
+/*#footer*/
+ #footer{
+  background-color: #212121 !important;
+  /*position: relative;*/
+  bottom: 0;
+  padding-top: 10vh;
+}
+
+ #footer > .container-fluid > .row > .col-xs-3 > img{
+  width: 20vh !important;
+  margin-top: 5vh ;
+}
+
+ #footer > .container-fluid > .row > .col-xs-3 > p{
+  color : white !important;
+  font-size: 0.9em !important;
+  margin-left: 10px !important;
+  margin-top: 5px !important;
+}
+
+ #footer > .container-fluid > .row > .col-xs-3 > h3{
+  margin-top: 6vh !important;
+}
+
+#cpy{
+  margin-top: 8vh;
+  background: black;
+  padding-top: 2vh;
+}
+
+textarea{
+  resize: vertical !important;
+}
+
+.conten{
+  padding-top:10vh !important;
+}
+
+
+#log{
+  width: 30vw;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  background: #eee;
+  overflow: hidden;
+  top: 5vh;
+  position: relative;
+  margin-left: 65vw;
+  z-index: 1;
+  display: none;
+
+}
+
+#keranjang{
+  width: 40vh;
+  min-height: 30vh;
+  /*background: salmon;*/
+  background: #fff;
+  box-shadow:5px 3px 5px #949ca8;
+  margin-left: 70vw;
+  z-index: 1;
+  position: relative;
+  top:0;
+  border-radius: 10px;
+  border:2px solid salmon;
+  display: none;
+}
+
+
+
+
+
+/*#flogin , #freg{
+  position: relative;
+}
+*/
+.kategori {
+  background-color: #7986cb!important;
+  width: 100%;
+  height: 10vh;
+  padding:0;
+  margin: 0;
+  top:0;
+  position: fixed;
+  z-index: 1;
+}
+.over{
+  z-index: 1 !important;
+}
+.kategori2{
+  margin-top: 2vh;
+}
+
+.kategori2 > li {
+  margin-right: 1vw;
+}
+.kategori2 > li > a{
+  padding: 1vh 1.5vw;
+  font-style: bold ;
+  font-size: 1.2em;
+  color: #fff;
+}
+.kategori2 > li > a:hover{
+  color: #294a4f !important;
+}
+
+
+.dropdown-menu > li > a{
+  font-size: 1.1em !important;
+  /*font-style: bold !important;*/
+}
+
+.dropdown-menu > li > a:hover{
+  /*background-color: red !important;*/
+  padding-left: 25px !important;
+  font-size: 1.2em !important;
+  font-style: bold !important;
+}
+
+
+/*.kategori-abso{
+  position: relative !important;
+  top: 15vh;
+}
+.kategori-fixed{
+  position: fixed !important;
+  top: 0;
+  z-index: 1;
+}*/
+
+/*isi*/
+#isi{
+  min-height: 100vh;
+  padding-bottom: 5vh;
+  
+}
+
+#produk-laris{
+   border-bottom: 3px solid salmon; 
+   text-align:center; 
+   padding-bottom: 1vh; 
+   font-style: bold;
+
+}
+
+.laris{
+  margin-top: 5vh;
+  /*margin-left: 5vw;*/
+}
+
+.laris > .laris-box{
+  /*margin-left: 5vw;*/
+  width: 15vw;
+  cursor: pointer;
+  height: 60vh;
+  border-radius: 15px;
+  border: 1px solid #252c38;
+  overflow: hidden;
+  /*background: #aaaaaa;*/
+}
+
+.laris > .laris-box:hover{
+   box-shadow: 3px 4px 10px #aaa;
+}
+
+.laris > .laris-box > img{
+  width: 13vw;
+  height: 40vh;
+  margin-left: 1vw;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+
+.laris > .laris-box > .price-container{
+  height: 10vh;
+  width: 15vw;
+  border-top: 2px solid #aaa; 
+
+}
+.laris > .laris-box > .price-container > h4,p{
+  margin-left: 1vw;
+}
+
+.laris > .laris-box > .price-container > button{
+  position: absolute; !important;
+  color: white !important;
+  /*margin-left: 10vh !important;*/
+  /*margin-bottom: 10vh !important;*/
+  bottom: 2vh;
+  right: 8vw;
+  display: block !important;
+}
+
+#garis-produk{
+  margin-top: 15vh;
+  border-top: 1px solid #a89e9e;
+  height: 1px;
+  z-index: 0;
+  width: 80vw;
+}
+
+
+ul.produk > li{
+  text-decoration: none;
+  display: inline-block;
+}
+ul.produk > li > a{
+  margin-right: 2vw;
+  font-size: 1.4em;
+  font-style: bold;
+  color:#aaa;
+}
+ul.produk > li > .active{
+  color:#d62a17;
+}
+ul.produk > li > a:hover{
+  text-decoration: none;
+  color:#d62a17;
+}
+
+ul.paging-produk{
+  margin-right: 10vw;
+}
+ul.paging-produk > li{
+  text-decoration: none;
+  display: inline-block;
+}
+ul.paging-produk > li > a{
+  margin-right: 0.5vw;
+  font-size: 1.4em;
+  font-style: bold;
+  border: 1px solid #eee;
+  color:#aaa;
+}
+ul.paging-produk > li > .active{
+  color:#d62a17;
+  border: 1px solid red;
+}
+ul.paging-produk > li > a:hover{
+  text-decoration: none;
+  border: 2px solid red;
+  color:#d62a17;
+}
+
+/*produk*/
+ul{
+  list-style: none !important;
+}
+
+#produk{
+  margin :3vh 6.5vw;
+  width: 84vw;
+  /*background: #aaa;*/
+  padding: 5vh 0vh;
+  overflow: hidden;
+}
+
+#produk  li{
+  height: 60vh;
+  width: 18vw;
+  /*background-image: url("asset/img/1.png");*/
+  overflow: hidden;
+  /*background: azure;*/
+  border : 0px solid grey;
+  float: left; 
+  align-content: center;
+  position: relative;
+  margin-right: 2vw;
+}
+
+#produk li a:hover{
+  cursor: zoom-in;
+}
+
+#produk li img{
+  width: 18vw;
+  height: 60vh;
+}
+
+#produk li  span{
+  display: block;
+  width: 18vw;
+  height: 60vh;
+  opacity: 0;
+  position: absolute;
+  top: 60vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.6);
+  transition: 0.8s;
+}
+
+
+#produk li a:hover span{
+  opacity: 1;
+  top: 0;
+}
+
+.clear{
+  clear: both;
+}
+
+
+.overlay{
+  position: fixed;
+  width: 0 ;
+  height: 0;
+  top: 0;
+  overflow: hidden;
+  left: 0;
+  background-color: rgba(0,0,0,0);
+  z-index: 9999;
+  transition: 1s;
+}
+
+.overlay:target{
+  width: auto;
+  height: auto;
+  bottom:0;
+  right: 0;
+  background-color: rgba(0,0,0,.85);
+}
+
+.overlay img{
+  margin-top: 10vh;
+  margin-left: 10vw;
+  height: 75vh !important;
+  width: 25vw !important;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,1);
+  /*transition: 2s;*/
+  float: left;
+}
+
+.overlay:target img{
+  animation: zoomDanFade 1s;
+}
+.overlay:target .keterangan{
+  animation: zoomDanFade 2s;
+}
+
+.overlay .keterangan {
+  margin-top: 10vh;
+  margin-left: 3vw;
+  height: 75vh !important;
+  width: 40vw !important;
+  border-radius: 5px;
+  background: white;
+  float: left;
+  transition: 3s;
+}
+
+.overlay .keterangan .container{
+  height: 75vh !important;
+  width: 40vw !important;
+}
+
+.overlay .keterangan .container h4{
+  font-size: 1.8em;
+  margin-left: 1vw;
+  margin-top: 3vh;
+  color: #39294c;
+}
+
+.overlay .keterangan .container p{
+  font-size: 1.2em;
+  margin-top: 5vh;
+  color: #39294c;
+}
+
+.overlay .keterangan .container h5{
+  font-size: 2em;
+  margin-left: 1vw;
+  margin-top: 5vh;
+  color: #d8231a;
+}
+
+.overlay .keterangan .container h5.ukur{
+  font-size: 1.3em !important;
+  margin-left: 1vw !important;
+  margin-top: 5vh !important;
+  color: #7691bc !important;
+}
+
+.overlay .keterangan .container .btn-success{
+  font-size: 1.2em;
+  margin-left: 1vw;
+  margin-top: 5vh;
+}
+
+.overlay .keterangan .container .form-group{
+  margin-left: 1vw;
+  margin-top: 3vh;
+  padding-right: 20vw;
+}
+
+.overlay .keterangan .container .btn-info{
+  margin-left: 20vw;
+  margin-top: 3vh;
+  font-style: bold;
+  font-size: 1.1em;
+}
+
+.overlay .close {
+  position: absolute !important;
+  color: white;
+  top: 5vh !important;
+  left: 78vw;
+  padding: 5px;
+  border: 3px solid white;
+  border-radius: 50%;
+  transition: 4s;
+  opacity: 1;
+}
+.overlay:target .close{
+  animation: zoomDanFade 3s;
+  color: white;
+}
+
+
+.overlay .close:hover{
+  cursor: pointer !important;
+  color: red !important;
+  /*z-index: 999999;*/
+  border: 3px solid red;
+}
+
+
+
+/*animasi*/
+@keyframes zoomDanFade{
+  0%{
+    transform: scale(0);
+    opacity: 0;
+  }
+  50%{
+    transform: scale(0);
+    opacity: 0;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/*end of produk*/
+
+
+/*content pencarian.php*/
+#content-pencarian{
+  min-height: 50vh !important;
+}
+
+#content-pencarian > .container > .row > .col-xs-3 > h3{
+  margin-top: 2vh !important;
+}
+
+#content-pencarian > .container > .row > .col-xs-5 > p{
+  margin-top: 2vh !important;
+  padding-left: 3vw;
+  background: #60c18e;
+  color: white;
+  line-height: 35px;
+  border: 1px solid green;
+}
+/*end pf content pencarian .php*/
+
+
+.hasil-cari{
+  background: #6cd83a;
+  height: 10vh;
+}
+
+#paging {
+  margin-top: 10vh !important;
+  margin-bottom: 0vh;
+}
+.right{
+  margin-left: 78vw;
+}
